@@ -14,6 +14,7 @@ from Crypto.Random import get_random_bytes
 import hashlib
 import base64
 import rsa
+import binascii
 
 # Step 1: Generate Ciphertext Samples
 def generate_ciphertext_samples(num_samples=100):
